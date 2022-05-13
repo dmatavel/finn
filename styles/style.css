@@ -95,3 +95,7 @@ button {
     left: 44%;
     top: 87%
 }
+
+button:hover {
+	cursor: pointer;
+}
