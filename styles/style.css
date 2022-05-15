@@ -7,6 +7,7 @@
 }
 
 body {
+    max-width: 1920px;
     background: #2CB3F3;
 }
 
@@ -98,4 +99,40 @@ button {
 
 button:hover {
 	cursor: pointer;
+}
+
+@media(min-width: 420px) {
+    header {
+        padding: 3%;
+        margin-top: 10%;
+    
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 1.0rem;
+    }
+
+    .head {
+        width: 90%;
+        margin-left: 5%;
+        position: initial;
+    }
+
+    .face {
+        width: 70%;
+        height: 50%;
+        left: 15%;
+        top: 22%;
+    }
+
+    button {
+        width: 20vw;
+        height: 8vh;
+        left: 39%;
+        top: 85%;
+    }
 }
